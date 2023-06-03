@@ -102,11 +102,11 @@ input, select, textarea {
 	}
 
 	body {
-		background-color: #cab47a;
-		background-image: url("images/overlay.png"), -moz-linear-gradient(45deg, #B4973F 15%, #FFFFFF 85%);
-		background-image: url("images/overlay.png"), -webkit-linear-gradient(45deg, #B4973F 15%, #FFFFFF 85%);
-		background-image: url("images/overlay.png"), -ms-linear-gradient(45deg, #B4973F 15%, #FFFFFF 85%);
-		background-image: url("images/overlay.png"), linear-gradient(45deg, #B4973F 15%, #FFFFFF 85%);
+		background-color: #304D19;
+		background-image: url("images/overlay.png"), -moz-linear-gradient(45deg, #273E14 15%, #FFFFFF 85%);
+		background-image: url("images/overlay.png"), -webkit-linear-gradient(45deg, #273E14 15%, #FFFFFF 85%);
+		background-image: url("images/overlay.png"), -ms-linear-gradient(45deg, #273E14 15%, #FFFFFF 85%);
+		background-image: url("images/overlay.png"), linear-gradient(45deg, #273E14 15%, #FFFFFF 85%);
 	}
 
 		body.is-preload *, body.is-preload *:before, body.is-preload *:after {
@@ -123,12 +123,12 @@ input, select, textarea {
 /* Type */
 
 	body {
-		background-color: #B4973F;
+		background-color: #273E14;
 		color: rgba(255, 255, 255, 0.65);
 	}
 
 	body, input, select, textarea {
-		font-family: 'Playfair Display', serif;
+		font-family: 'Times New Roman', Times, serif;
 		font-size: 20pt;
 		font-weight: 400;
 		line-height: 1.65;
@@ -310,7 +310,7 @@ input, select, textarea {
 	}
 
 	a:hover {
-		color: #141F0A;
+		color: #ffffff;
 	}
 
 	strong, b {
@@ -1960,7 +1960,7 @@ input, select, textarea {
 		input[type="button"].primary,
 		button.primary,
 		.button.primary {
-			background-color: #543826;
+			background-color: #A88738;
 			color: #ffffff !important;
 			box-shadow: none;
 		}
@@ -2170,7 +2170,7 @@ input, select, textarea {
 
 		select option {
 			color: #ffffff;
-			background: #cab47a;
+			background: #304D19;
 		}
 
 	input[type="checkbox"] + label,
@@ -2188,7 +2188,7 @@ input, select, textarea {
 	input[type="radio"]:checked + label:before {
 		background-color: #ffffff;
 		border-color: #ffffff;
-		color: #cab47a;
+		color: #304D19;
 	}
 
 	input[type="checkbox"]:focus + label:before,
@@ -3081,18 +3081,18 @@ input, select, textarea {
 
 		#header h1 {
 			margin: 0 0 0.25em 0;
-			font-family: 'Playfair Display', serif;
-			font-weight: 600;
-			color: #63422C;
+			font-family: 'Alex Brush', cursive;
+			font-weight: 500;
+			color: #141F0A;
 		}
 
 		#header p {
 			font-size: 1.25em;
 			letter-spacing: -0.025em;
-			font-family: 'Playfair Display', serif;
+			font-family:'Times New Roman', Times, serif;
 			font-weight: 400;
 			font-style: italic;
-			color: #7F5439;
+			color: #A88738;
 		}
 
 		#header.alt {
@@ -3226,12 +3226,12 @@ input, select, textarea {
 		-ms-transition: background-color 0.2s ease, border-top-left-radius 0.2s ease, border-top-right-radius 0.2s ease, padding 0.2s ease;
 		transition: background-color 0.2s ease, border-top-left-radius 0.2s ease, border-top-right-radius 0.2s ease, padding 0.2s ease;
 		background-color: #ffffff;
-		color: #7F5439;
+		color: #A88738;
 		position: absolute;
 		width: 64em;
 		max-width: calc(100% - 4em);
 		padding: 1em;
-		background-color: #f5efdf;
+		background-color: #F6F3E9;
 		border-top-left-radius: 0.25em;
 		border-top-right-radius: 0.25em;
 		cursor: default;
@@ -3300,7 +3300,10 @@ input, select, textarea {
 					border: 0;
 					border-radius: 8px;
 					box-shadow: inset 0 0 0 1px transparent;
-					color: #63422C;
+					color: #141F0A;
+					font-size:xx-large;
+					font-weight: bolder;
+					font-family: 'Alex Brush', cursive;
 				}
 
 					#nav ul li a:hover {
@@ -3308,8 +3311,8 @@ input, select, textarea {
 					}
 
 					#nav ul li a.active {
-						background-color: #D5C186;
-						color: #63422C;
+						background-color: 141F0A;
+						color: #141F0A;
 						box-shadow: none;
 					}
 
@@ -3347,24 +3350,24 @@ input, select, textarea {
 
 	#main {
 		background-color: #ffffff;
-		color: #63422C;
+		color: #141F0A;
 		border-radius: 0.25em;
 	}
 
 		#main input, #main select, #main textarea {
-			color: #63422C;
+			color: #141F0A;
 		}
 
 		#main a:hover {
-			color: #63422C;
+			color: #141F0A;
 		}
 
 		#main strong, #main b {
-			color: #63422C;
+			color: #141F0A;
 		}
 
 		#main h1, #main h2, #main h3, #main h4, #main h5, #main h6 {
-			color: #63422C;
+			color: #141F0A;
 		}
 
 		#main blockquote {
@@ -3391,7 +3394,7 @@ input, select, textarea {
 		#main .button {
 			background-color: transparent;
 			box-shadow: inset 0 0 0 1px #dddddd;
-			color: #63422C !important;
+			color: #141F0A !important;
 		}
 
 			#main input[type="submit"]:hover,
@@ -3423,7 +3426,7 @@ input, select, textarea {
 			#main input[type="button"].primary,
 			#main button.primary,
 			#main .button.primary {
-				background-color: #543826;
+				background-color: #A88738;
 				color: #ffffff !important;
 				box-shadow: none;
 			}
@@ -3453,7 +3456,7 @@ input, select, textarea {
 				}
 
 		#main label {
-			color: #63422C;
+			color: #141F0A;
 		}
 
 		#main input[type="text"],
@@ -3479,13 +3482,13 @@ input, select, textarea {
 		}
 
 			#main select option {
-				color: #63422C;
+				color: #141F0A;
 				background: #ffffff;
 			}
 
 		#main input[type="checkbox"] + label,
 		#main input[type="radio"] + label {
-			color: #63422C;
+			color: #141F0A;
 		}
 
 			#main input[type="checkbox"] + label:before,
@@ -3496,8 +3499,8 @@ input, select, textarea {
 
 		#main input[type="checkbox"]:checked + label:before,
 		#main input[type="radio"]:checked + label:before {
-			background-color: #63422C;
-			border-color: #63422C;
+			background-color: #141F0A;
+			border-color: #141F0A;
 			color: #ffffff;
 		}
 
@@ -3537,7 +3540,7 @@ input, select, textarea {
 
 		#main .icon.alt {
 			border-color: #dddddd;
-			color: #63422C;
+			color: #141F0A;
 		}
 
 			#main .icon.alt:hover {
@@ -3553,15 +3556,15 @@ input, select, textarea {
 		}
 
 		#main dl dt {
-			color: #63422C;
+			color: #141F0A;
 		}
 
 		#main header.major h2:after {
 			background-color: #dddddd;
-			background-image: -moz-linear-gradient(90deg, #2C2611, #B4973F, #DDD1A7);
-			background-image: -webkit-linear-gradient(90deg, #2C2611, #B4973F, #DDD1A7);
-			background-image: -ms-linear-gradient(90deg, #2C2611, #B4973F, #DDD1A7);
-			background-image: linear-gradient(90deg, #2C2611, #B4973F, #DDD1A7);
+			background-image: -moz-linear-gradient(90deg, #2C2611, #273E14, #DDD1A7);
+			background-image: -webkit-linear-gradient(90deg, #2C2611, #273E14, #DDD1A7);
+			background-image: -ms-linear-gradient(90deg, #2C2611, #273E14, #DDD1A7);
+			background-image: linear-gradient(90deg, #2C2611, #273E14, #DDD1A7);
 		}
 
 		#main table tbody tr {
@@ -3573,7 +3576,7 @@ input, select, textarea {
 			}
 
 		#main table th {
-			color: #63422C;
+			color: #141F0A;
 		}
 
 		#main table thead {
